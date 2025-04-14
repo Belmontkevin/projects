@@ -1,0 +1,97 @@
+hr.style1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #f00, #0f0, #00f);
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    color: #51b5c7;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: dashed underline;
+    text-decoration-color: #8609b8;
+    text-decoration-thickness: 3px; 
+    text-sapcing:3px;
+    text-shadow: 1px 1px 2px #000000;
+}
+p {
+    font-size: 20px;
+    color: #4e0000;
+    text-align: center;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border-radius:15px;;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+audio:hover{
+    border-radius:50px;
+    border-color:rgb(0, 255, 170);
+    transform:skew(1.9);
+    transition:0.5s;
+    box-shadow:0px 0px 20px 2px black;
+}
+img.barbie{
+    border-radius:140px;
+    background-color: #4e0000;
+}
+img.barbie:hover{
+    border-radius:50px;
+    border-color:rgb(0, 0, 0);
+    transform:skew(2.9);
+    transition:0.5s;
+    box-shadow:0px 0px 20px 2px rgb(209, 24, 24);
+}
+
+.fa {
+    padding: 12px;
+    font-size: 19px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 1px;
+    margin: 5px 2px;
+    }
+    
+    .fa-instagram {
+    background: #E4405F;
+    color: white;
+    }
+    
+    .fa:hover {
+    opacity: 0.7;
+    border-radius:50px;
+    border-color:#405de6 #5851db #833ab4 #bc2a8d;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #bc2a8d);
+    transform:skew(1.9);
+    color:black;
+    text-decoration-thickness: 5px;
+
+    transition: 0.5s;
+    }
+    .fa:hover {
+        transform: scale(2.8);
+        transition: 0.5s;
+        box-shadow: 0px 0px 20px 2px rgb(209, 24, 24);
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div{
+        font-family:rockwell;
+        font-size: 18px;
+        text-decoration: none;
+    }
